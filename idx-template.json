@@ -2,8 +2,8 @@
   "name": "SvelteKit",
   "description": "web development, streamlined",
   "categories": ["Web app", "Svelte"],
-  "icon": "http://foo.svg",
-  "publisher": {},
+  "icon": "https://www.gstatic.com/monospace/231115/logo_python.svg",
+  "publisher": "Julien Martel",
   "params": [
     {
       "id": "template",
