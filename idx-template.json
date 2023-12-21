@@ -21,7 +21,7 @@
       "id": "types",
       "name": "Types",
       "type": "enum",
-      "default": "jsdoc",
+      "default": "checkjs",
       "options": {
         "checkjs": "JSDoc comments",
         "typescript": "TypeScript syntax",
