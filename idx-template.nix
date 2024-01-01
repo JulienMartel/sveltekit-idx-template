@@ -16,7 +16,7 @@
       chmod -R +w "$WS_NAME"
       mkdir "$out"
       cp -rf "$WS_NAME"/* "$out"
-a
+
       mkdir -p "$out"/.idx/
       cp -rf ${./dev.nix} "$out"/.idx/dev.nix 
       chmod -R +w "$out"/.idx/dev.nix 
