@@ -1,5 +1,5 @@
 # /opt/nix/store/qgx9xsmmwjkflakfcxz52ncmihhr3mg9-idx-env-usr-target/bin/idx-template ~/Monospace/workspace/nix_templates/sveltekit --output-dir ~ --workspace-name foo -a '{"template": "default", "types": "checkjs", "prettier": "true", "eslint": "true", "playwright": "true", "vitest": "true"}'
-{ pkgs, template, types, eslint, prettier, playwright, vitest, ... }: {
+{ pkgs, template, types, eslint ? false, prettier ? false, playwright ? false, vitest ? false, ... }: {
     packages = [
       pkgs.nodejs
     ];
