@@ -47,14 +47,14 @@
       "id": "playwright",
       "name": "Use Playwright",
       "type": "boolean",
-      "default": true,
+      "default": false,
       "required": true
     },
     {
       "id": "vitest",
       "name": "Use Vitest",
       "type": "boolean",
-      "default": true,
+      "default": false,
       "required": true
     }
   ]
