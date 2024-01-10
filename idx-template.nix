@@ -14,11 +14,10 @@
       node init.js name="$WS_NAME" template=${template} types=${types} prettier=${toString prettier} eslint=${toString eslint} playwright=${toString playwright} vitest=${toString vitest}
 
       chmod -R +w "$WS_NAME"
-      mkdir "$out"
-      cp -rf "$WS_NAME"/* "$out"
-a
-      mkdir -p "$out"/.idx/
-      cp -rf ${./dev.nix} "$out"/.idx/dev.nix 
-      chmod -R +w "$out"/.idx/dev.nix 
+      cp -rf "$WS_NAME" "$out"
+
+      mkdir "$out"/.idx/
+      cp ${./dev.nix} "$out"/.idx/dev.nix
+      chmod +w "$out"/.idx/dev.nix
     '';
 }
